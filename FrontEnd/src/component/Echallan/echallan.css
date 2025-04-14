@@ -1,0 +1,71 @@
+.input {
+  width: 300px;
+  padding-left: 10px;
+}
+
+.search {
+  margin-top: 20px;
+}
+
+.table {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.MainTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.MainTable th, .MainTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.MainTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Card */
+.modal-card {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+/* Close Button */
+.close-btn {
+  margin-top: 1rem;
+  background-color: #e53e3e;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: #c53030;
+}

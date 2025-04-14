@@ -1,0 +1,14 @@
+/* Add this to Home.css */
+.education-section {
+    background-color: #1e242b;
+  }
+  
+  .tip-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
