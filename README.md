@@ -4,7 +4,6 @@
 
 * **Ruthwik Siddhartha**
 * **Ananth**
-* **Siddhanth**
 * **Aryan**
 
 ---
